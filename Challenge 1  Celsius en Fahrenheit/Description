@@ -1,0 +1,11 @@
+Celsius en Fahrenheit
+
+Écrivez un programme Java pour convertir Celsius en Fahrenheit.
+Votre programme doit demander à l'utilisateur d'entrer une température C en Celsius, puis 
+calculer la température équivalente F en Fahrenheit en utilisant la formule suivante :
+
+F = C * 9/5 + 32
+Où F est la température en Fahrenheit et C'est la température en Celsius.
+Exemple de sortie :
+Entrez la température en Celsius : 30
+30,0 degrés Celsius équivaut à 86,0 degrés Fahrenheit
