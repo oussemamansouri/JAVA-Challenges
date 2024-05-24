@@ -1,5 +1,4 @@
 # JAVA Challenges
-# Java Challenges
 
 Welcome to the Java Challenges repository! This repository is dedicated to presenting a variety of Java programming challenges along with their solutions. Each challenge is designed to test and enhance your understanding of Java, covering a wide range of topics and difficulty levels.
 
