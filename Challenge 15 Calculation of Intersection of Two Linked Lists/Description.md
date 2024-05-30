@@ -14,3 +14,10 @@ class Node {
         this.next = null;
     }
 }
+
+Input:
+List 1: 1 -> 2 -> 3
+List 2: 2 -> 3 -> 4
+
+Output:
+Intersection of lists: 2 3
