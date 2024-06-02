@@ -15,11 +15,10 @@ This repository contains a Java solution for verifying the balance of parenthese
 ### Example Output
 
 #### Input:
-```text
 "{[()]}"
-Output:
+#### Output:
 The expression {[()]} is balanced: true
-Input:
+#### Input:
 "{[(])}"
-Output:
+#### Output:
 The expression {[(])} is balanced: false
