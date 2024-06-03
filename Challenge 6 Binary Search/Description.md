@@ -7,6 +7,9 @@ In binary search, an array is repeatedly divided into two halves until the key (
 
 ## Example Output:
 Input: array = { 2, 5, 8, 12, 16, 23, 38, 56, 72, 91 }; and 23.
+
 Output: "The value 23 is present at index: 5."
+
 Input: array = { 2, 5, 8, 12, 16, 23, 38, 56, 72, 91 }; and 15.
+
 Output: "The value 15 is not present in the array."
