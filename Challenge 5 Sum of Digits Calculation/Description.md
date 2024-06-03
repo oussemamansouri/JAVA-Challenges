@@ -6,4 +6,5 @@ Call the `sumOfDigits` method in the `main` function.
 
 ## Example Output:
 Input: 546
+
 Output: The sum of the digits of 546 is: 15
