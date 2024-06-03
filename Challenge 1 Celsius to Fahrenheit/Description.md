@@ -8,6 +8,6 @@ F = C * 9/5 + 32
 
 Where F is the temperature in Fahrenheit and C is the temperature in Celsius.
 
-Example Output:
+#### Example Output:
 Enter the temperature in Celsius: 30
 30.0 degrees Celsius is equal to 86.0 degrees Fahrenheit
