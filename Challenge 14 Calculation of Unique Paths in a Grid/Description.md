@@ -5,7 +5,7 @@ Write a method named `numberOfUniquePaths` that takes two integers m and n repre
 
 ## Example Output:
 Input: rows = 3, columns = 3
- Output: 6
+- Output: 6
 
 Example of a 3x3 grid:
 
