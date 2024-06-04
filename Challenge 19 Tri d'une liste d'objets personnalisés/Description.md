@@ -1,10 +1,10 @@
-# Tri d'une liste d'objets personnalisés
+# Sorting a List of Custom Objects
 
 
-### Écrivez une methode Java nommée trierParAge pour trier une liste d'objets personnes en fonction de l'âge et en utilisant un Comparator.
+### Write a Java method named sortAge to sort a list of person objects based on their age using a Comparator.
 
 
-#### Indice:
+#### Hint:
 
 class Personne {
 
@@ -34,13 +34,13 @@ return age;
 
 }
 
-### Exemple de sortie :
+### Example Output:
 
 
-- Liste avant le tri :
-- Personne{nom='Alice', age=25}
-- Personne{nom='Bob', age=30}
-- Personne{nom='Charlie', age=20}
+- List before sorting:
+- Person{name='Alice', age=25}
+- Person{name='Bob', age=30}
+- Person{name='Charlie', age=20}
 
 ---
 
