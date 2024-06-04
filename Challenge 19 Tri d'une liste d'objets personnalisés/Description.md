@@ -42,6 +42,7 @@ return age;
 - Personne{nom='Bob', age=30}
 - Personne{nom='Charlie', age=20}
 
+---
 
 - Liste après le tri par âge :
 - Personne{nom='Charlie', age=20}
