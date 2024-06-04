@@ -4,37 +4,52 @@ import java.util.Map;
 public class Solution {
     public static void main(String[] args) {
         try {
-            String input = "Le chat est sur le toit. Le toit est rouge.";
-            Map<String, Integer> occurrences = compterOccurrencesMots(input);
-            System.out.println("Sortie : " + occurrences);
+            // Input string
+            String input = "The cat is on the roof. The roof is red.";
+            // Call the method to count word occurrences
+            Map<String, Integer> occurrences = countWordOccurrences(input);
+            // Print the result
+            System.out.println("Output: " + occurrences);
         } catch (IllegalArgumentException e) {
-            System.out.println("Erreur : " + e.getMessage());
+            // Handle any illegal arguments
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
-    public static Map<String, Integer> compterOccurrencesMots(String input) {
+    // Method to count occurrences of words in a string
+    public static Map<String, Integer> countWordOccurrences(String input) {
+        // Check if input is null or empty
         if (input == null || input.isEmpty()) {
-            throw new IllegalArgumentException("La chaîne d'entrée ne peut pas être nulle ou vide.");
+            throw new IllegalArgumentException("The input string cannot be null or empty.");
         }
 
+        // Convert input string to lowercase
         input = input.toLowerCase();
 
+        // Create a map to store word occurrences
         Map<String, Integer> occurrences = new HashMap<>();
 
-        String[] mots = input.split("\\s+");
+        // Split input string into words
+        String[] words = input.split("\\s+");
 
-        for (String mot : mots) {
-            mot = mot.replaceAll("[^a-zA-Z]", "");
+        // Loop through each word
+        for (String word : words) {
+            // Remove non-alphabetical characters
+            word = word.replaceAll("[^a-zA-Z]", "");
 
-            if (!mot.isEmpty()) {
-                if (occurrences.containsKey(mot)) {
-                    occurrences.put(mot, occurrences.get(mot) + 1);
+            // Check if word is not empty after removing non-alphabetical characters
+            if (!word.isEmpty()) {
+                // Update word occurrences in the map
+                if (occurrences.containsKey(word)) {
+                    occurrences.put(word, occurrences.get(word) + 1);
                 } else {
-                    occurrences.put(mot, 1);
+                    occurrences.put(word, 1);
                 }
             }
         }
 
+        // Return the map containing word occurrences
         return occurrences;
     }
 }
+
