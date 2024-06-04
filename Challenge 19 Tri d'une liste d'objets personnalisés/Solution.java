@@ -3,61 +3,61 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-// Classe représentant une personne avec un nom et un âge
-class Personne {
-    private String nom;
+// Class representing a person with a name and an age
+class Person {
+    private String name;
     private int age;
 
-    // Constructeur pour initialiser une personne avec un nom et un âge
-    public Personne(String nom, int age) {
-        this.nom = nom;
+    // Constructor to initialize a person with a name and an age
+    public Person(String name, int age) {
+        this.name = name;
         this.age = age;
     }
 
-    // Méthode pour obtenir le nom de la personne
-    public String getNom() {
-        return nom;
+    // Method to get the name of the person
+    public String getName() {
+        return name;
     }
 
-    // Méthode pour obtenir l'âge de la personne
+    // Method to get the age of the person
     public int getAge() {
         return age;
     }
 
-    // Méthode toString pour obtenir une représentation textuelle de l'objet Personne
+    // toString method to get a textual representation of the Person object
     @Override
     public String toString() {
-        return "Personne{" +
-                "nom='" + nom + '\'' +
+        return "Person{" +
+                "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
     }
 }
 
-// Classe principale pour tester le tri d'objets personnalisés
+// Main class to test sorting of custom objects
 public class Solution {
     public static void main(String[] args) {
         
         
-        // Création d'une liste de personnes
-        List<Personne> personnes = new ArrayList<>();
-        personnes.add(new Personne("Alice", 25));
-        personnes.add(new Personne("Bob", 30));
-        personnes.add(new Personne("Charlie", 20));
+        // Creating a list of persons
+        List<Person> persons = new ArrayList<>();
+        persons.add(new Person("Alice", 25));
+        persons.add(new Person("Bob", 30));
+        persons.add(new Person("Charlie", 20));
 
-        // Affichage de la liste avant le tri
-        System.out.println("Liste avant le tri :");
-        for (Personne personne : personnes) {
-            System.out.println(personne);
+        // Displaying the list before sorting
+        System.out.println("List before sorting:");
+        for (Person person : persons) {
+            System.out.println(person);
         }
 
-        // Tri de la liste de personnes en fonction de l'âge à l'aide d'un comparateur
-        Collections.sort(personnes, Comparator.comparingInt(Personne::getAge));
+        // Sorting the list of persons based on age using a comparator
+        Collections.sort(persons, Comparator.comparingInt(Person::getAge));
 
-        // Affichage de la liste après le tri par âge
-        System.out.println("\nListe après le tri par âge :");
-        for (Personne personne : personnes) {
-            System.out.println(personne);
+        // Displaying the list after sorting by age
+        System.out.println("\nList after sorting by age:");
+        for (Person person : persons) {
+            System.out.println(person);
         }
     }
 }
