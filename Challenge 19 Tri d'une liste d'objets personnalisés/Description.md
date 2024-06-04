@@ -44,7 +44,7 @@ return age;
 
 ---
 
-- Liste après le tri par âge :
-- Personne{nom='Charlie', age=20}
-- Personne{nom='Alice', age=25}
-- Personne{nom='Bob', age=30}
+- List after sorting by age:
+- Person{name='Charlie', age=20}
+- Person{name='Alice', age=25}
+- Person{name='Bob', age=30}
