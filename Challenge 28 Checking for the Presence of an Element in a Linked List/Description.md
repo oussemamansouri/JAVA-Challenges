@@ -13,6 +13,7 @@ public class Node {
         this.next = null;
     }
 }
+```java
 ### Example Output:
 
 List: { 10, 20, 30, 40, 20 }
