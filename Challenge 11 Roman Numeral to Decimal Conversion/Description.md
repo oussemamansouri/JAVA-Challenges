@@ -9,7 +9,7 @@ A number written in Roman numerals is read from left to right, and its value is 
 
 ## Example Output:
 
-Input: XXVIII
-Output: 28
-Input: DCLXVI
-Output: 666
+- Input: XXVIII
+- Output: 28
+- Input: DCLXVI
+- Output: 666
