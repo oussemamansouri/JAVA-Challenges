@@ -5,8 +5,11 @@ Write a method named `rotateArray` that performs a left rotation on a given arra
 ## Example Output:
 
 **Input:** 
+
 - { 1, 2, 3, 4, 5 }, position = 2
-**Output:**
+
+**Output:** 
+
 - Array before rotation: [1, 2, 3, 4, 5]
 - Array after left rotation by 2 positions: [3, 4, 5, 1, 2]
 
