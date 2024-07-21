@@ -62,6 +62,7 @@ class Solution {
     /**
      * Test method for shortestPath.
      */
+    @SuppressWarnings("static-access")
     public static void testShortestPath() {
         Solution s = new Solution();
 
