@@ -39,17 +39,28 @@ public class Solution {
             current.next.previous = current.previous;
         }
 
-        // Return the updated list
         return head;
     }
 
     public static void main(String[] args) {
-        Node head = null;
+        // Create a sample doubly linked list: 1 <-> 2 <-> 3 <-> 4 <-> 5
+        Node head = new Node(1);
+        head.next = new Node(2);
+        head.next.previous = head;
+        head.next.next = new Node(3);
+        head.next.next.previous = head.next;
+        head.next.next.next = new Node(4);
+        head.next.next.next.previous = head.next.next;
+        head.next.next.next.next = new Node(5);
+        head.next.next.next.next.previous = head.next.next.next;
+
+        System.out.println("Original List:");
+        printList(head);
 
         try {
-            int index1 = 2;
+            int index1 = 2; // Remove node at index 2 (value 3)
             head = deleteNode(head, index1);
-            System.out.print("Output: ");
+            System.out.println("List after deletion at index " + index1 + ":");
             printList(head);
         } catch (IllegalArgumentException e) {
             System.out.println("Error: " + e.getMessage());
@@ -65,15 +76,15 @@ public class Solution {
         }
         System.out.println();
     }
-}
 
-// Definition of the Node class
-class Node {
-    int data;
-    Node next;
-    Node previous;
-    Node(int d){
-        data = d;
-        next = previous = null;
+    // Definition of the Node class
+    public static class Node {
+        int data;
+        Node next;
+        Node previous;
+        Node(int d) {
+            data = d;
+            next = previous = null;
+        }
     }
 }
