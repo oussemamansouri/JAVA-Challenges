@@ -12,6 +12,3 @@ Write a method named `countOccurrences` that takes a string, a character, and a 
 
 **Input:** `("Hello world! The weather is nice today.", 'e', false)`  
 **Output:** `3`
-
-**Input:** `("Hello world! The weather is nice today.", 'e', true)`  
-**Output:** `1`
