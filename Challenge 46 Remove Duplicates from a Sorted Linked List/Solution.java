@@ -47,14 +47,16 @@ public class Solution {
             System.out.println(e.getMessage());
         }
     }
-}
 
-// Definition of the Node class
-class Node {
-    int data;
-    Node next;
-    Node(int d){
-        data = d;
-        next = null;
+    // Definition of the Node class
+    public static class Node {
+        int data;
+        Node next;
+
+        Node(int d) {
+            data = d;
+            next = null;
+        }
     }
+
 }
