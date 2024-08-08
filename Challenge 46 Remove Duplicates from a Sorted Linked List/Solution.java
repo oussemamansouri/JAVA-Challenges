@@ -2,19 +2,24 @@ public class Solution {
 
     // Function to remove duplicates from a sorted linked list
     public static Node removeDuplicates(Node head) {
-        // If the list is empty, throw an exception
+        // If the list is empty, return the head
         if (head == null) {
-            throw new IllegalArgumentException("The list is empty");
+            return head;
         }
 
         Node current = head;
 
-        // Traverse the list to find and remove duplicates
-        while (current != null && current.next != null) {
-            // Check if the list is sorted; if not, throw an exception
-            if (head.data > head.next.data) {
+        // Check if the list is sorted
+        Node temp = head;
+        while (temp.next != null) {
+            if (temp.data > temp.next.data) {
                 throw new IllegalArgumentException("The list is not sorted in ascending order");
             }
+            temp = temp.next;
+        }
+
+        // Traverse the list to find and remove duplicates
+        while (current != null && current.next != null) {
             // If the current node and the next node have the same data, skip the next node
             if (current.data == current.next.data) {
                 current.next = current.next.next;
@@ -43,9 +48,21 @@ public class Solution {
         try {
             // Removing duplicates
             head = removeDuplicates(head);
+            // Printing the list after removing duplicates
+            printList(head);
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
+    }
+
+    // Method to print the elements of the list
+    public static void printList(Node head) {
+        Node current = head;
+        while (current != null) {
+            System.out.print(current.data + " ");
+            current = current.next;
+        }
+        System.out.println();
     }
 
     // Definition of the Node class
