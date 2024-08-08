@@ -17,7 +17,11 @@ public class Solution {
             // Skip spaces
             if (c != ' ') {
                 // Update the frequency of the character
-                freq.put(c, freq.getOrDefault(c, 0) + 1);
+                if (freq.containsKey(c)) {
+                    freq.put(c, freq.get(c) + 1);
+                } else {
+                    freq.put(c, 1);
+                }
             }
         }
 
@@ -25,13 +29,13 @@ public class Solution {
         Map<Character, Integer> sortedFreq = new TreeMap<>(freq);
 
         // Build the result string
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (Map.Entry<Character, Integer> entry : sortedFreq.entrySet()) {
-            result += entry.getKey() + entry.getValue().toString();
+            result.append(entry.getKey()).append(entry.getValue());
         }
 
         // Return the result
-        return result;
+        return result.toString();
     }
 
     public static void main(String[] args) {
