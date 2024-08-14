@@ -3,15 +3,15 @@
 We start by defining a class for the nodes of the binary tree.
 
 ```java
-class Noeud {
-    int donnee;
-    Noeud gauche;
-    Noeud droite;
+class Node {
+    int data;
+    Node left;
+    Node right;
 
-    // Constructeur pour initialiser un nœud avec une valeur donnée
-    Noeud(int item) {
-        donnee = item;
-        gauche = droite = null;
+    // Constructor to initialize a node with a given value
+    Node(int item) {
+        data = item;
+        left = right = null;
     }
 }
 ```
