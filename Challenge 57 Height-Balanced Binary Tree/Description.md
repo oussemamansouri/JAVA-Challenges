@@ -21,9 +21,13 @@ A height-balanced binary tree is a binary tree in which the height of the left a
 #### Example Output:
 
 - **Input:**
-![Input1](./Input1.png)
+
+ ![Input1](./Input1.png)
+
 - **Output:** `false`
 
 - **Input:**
-![Input2](./Input2.png)
+
+ ![Input2](./Input2.png)
+ 
 - **Output:** `true`
