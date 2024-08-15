@@ -39,7 +39,7 @@ class Solution {
         root1.right.left = new Node(4);
         root1.right.right = new Node(5);
         
-        System.out.println(isSymmetric(root1)); // Output: true
+        System.out.println(isSymmetric(root1)); // Output: false
 
         // Example test case 2: non-symmetric tree
         Node root2 = new Node(1);
@@ -50,7 +50,7 @@ class Solution {
         root2.right.left = new Node(5);
         root2.right.right = new Node(4);
         
-        System.out.println(isSymmetric(root2)); // Output: false
+        System.out.println(isSymmetric(root2)); // Output: true
     }
 }
 
