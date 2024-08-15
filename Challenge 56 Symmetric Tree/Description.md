@@ -1,4 +1,4 @@
-### Symmetric Tree
+# Symmetric Tree
 
 We started by defining a class for the nodes of the binary tree.
 ```java
