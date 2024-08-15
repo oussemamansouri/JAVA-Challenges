@@ -30,7 +30,7 @@ class Solution {
 
     // Main method to test the isSymmetric function
     public static void main(String[] args) {
-        // Example test case 1: symmetric tree
+        // Example test case 1: non-symmetric tree
         Node root1 = new Node(1);
         root1.left = new Node(2);
         root1.right = new Node(2);
@@ -41,7 +41,7 @@ class Solution {
         
         System.out.println(isSymmetric(root1)); // Output: false
 
-        // Example test case 2: non-symmetric tree
+        // Example test case 2: symmetric tree 
         Node root2 = new Node(1);
         root2.left = new Node(2);
         root2.right = new Node(2);
