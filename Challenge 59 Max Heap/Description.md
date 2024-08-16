@@ -26,11 +26,11 @@ Write a method named `isMaxHeap` that takes a binary tree of type `Node` as a pa
 ### Example Output:
 
 **Input:**
-![Input1 image](./input1.png)
+![Input1 image](./Input1.png)
 
 **Output:** false
 
 **Input:**
-![Input2 image](./input2.png)
+![Input2 image](./Input2.png)
 
 **Output:** true
