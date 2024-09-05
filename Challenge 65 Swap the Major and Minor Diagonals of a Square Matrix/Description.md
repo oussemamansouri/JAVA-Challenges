@@ -19,13 +19,19 @@ Write a method named `swapDiagonals` that takes an n x n matrix as a parameter, 
 Original Matrix:
 
 [9, 1, 7, 2]
+
 [3, 6, 4, 5]
+
 [3, 4, 9, 5]
+
 [6, 7, 2, 8]
 
 Matrix with Swapped Diagonals:
 
 [2, 1, 7, 9]
+
 [3, 4, 6, 5]
+
 [3, 9, 4, 5]
+
 [8, 7, 2, 6]
