@@ -11,14 +11,14 @@ Let A be a matrix of dimensions m x n (m rows and n columns), and B be a matrix 
 
 The elements of C are calculated as follows:
 
-- \( C_{11} = (a_{11} \times b_{11}) + (a_{12} \times b_{21}) + (a_{13} \times b_{31}) \)
-- \( C_{12} = (a_{11} \times b_{12}) + (a_{12} \times b_{22}) + (a_{13} \times b_{32}) \)
-- \( C_{13} = (a_{11} \times b_{13}) + (a_{12} \times b_{23}) + (a_{13} \times b_{33}) \)
-- \( C_{14} = (a_{11} \times b_{14}) + (a_{12} \times b_{24}) + (a_{13} \times b_{34}) \)
-- \( C_{21} = (a_{21} \times b_{11}) + (a_{22} \times b_{21}) + (a_{23} \times b_{31}) \)
-- \( C_{22} = (a_{21} \times b_{12}) + (a_{22} \times b_{22}) + (a_{23} \times b_{32}) \)
-- \( C_{23} = (a_{21} \times b_{13}) + (a_{22} \times b_{23}) + (a_{23} \times b_{33}) \)
-- \( C_{24} = (a_{21} \times b_{14}) + (a_{22} \times b_{24}) + (a_{23} \times b_{34}) \)
+- C11 = (a11 *b11) +(a12 *b21) +(a13 *b31) 
+- C12 = (a11 *b12) +(a12 *b22) +(a13 *b32) 
+- C13 = (a11 *b13) +(a12 *b23) +(a13 *b33) 
+- C14 = (a11 *b14) +(a12 *b24) +(a13 *b34)
+- C21 = (a21 *b11) +(a22 *b21) +(a23 *b31)
+- C22 = (a21 *b12) +(a22 *b22) +(a23 *b32) 
+- C23 = (a21 *b13) +(a22 *b23) +(a23 *b33) 
+- C24 = (a21 *b14) +(a22 *b24) +(a23 *b34) 
 
 ## Method
 
