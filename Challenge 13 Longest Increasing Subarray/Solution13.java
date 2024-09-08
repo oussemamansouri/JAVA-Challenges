@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Solution {
+public class Solution13 {
 
     // Method to find the length of the longest increasing subarray
     public static int longestIncreasingSubarray(int[] array) {

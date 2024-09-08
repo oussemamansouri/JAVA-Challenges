@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class Solution08 {
 
     // Method to generate and display the first n terms of the Fibonacci sequence
     public static void fibonacciSequence(int n) {

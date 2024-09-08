@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 // Define the Node class to represent an element of a linked list
-public class Solution {
+public class Solution15 {
 
     // Method to find the intersection of two linked lists
     public static Node intersectionLinkedLists(Node l1, Node l2) {

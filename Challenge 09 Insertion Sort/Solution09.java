@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution09 {
 
     // Method to sort an array using insertion sort
     public static int[] insertionSort(int[] array) {

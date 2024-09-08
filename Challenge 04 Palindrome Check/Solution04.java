@@ -1,5 +1,5 @@
 
-public class Solution { // Define the main class named 'Solution'
+public class Solution04 { // Define the main class named 'Solution'
     public static void main(String[] args) throws Exception { // Main method: the entry point of the program, can throw exceptions
 
         String ch = "radar"; // Define the input string 'ch' as "radar"

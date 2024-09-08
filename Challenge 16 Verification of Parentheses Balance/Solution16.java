@@ -3,7 +3,7 @@ import java.util.Deque;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class Solution16 {
     // Method to check if two characters are matching parentheses
     public static boolean parenthesesCorrespondantes(char c1, char c2) {
         if (c1 == '(' && c2 == ')') {

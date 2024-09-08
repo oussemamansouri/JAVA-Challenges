@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution05 {
 
     // Main method: entry point of the program
     public static void main(String[] args){

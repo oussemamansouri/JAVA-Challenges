@@ -1,5 +1,5 @@
 
-public class Solution {
+public class Solution11 {
 
     public static void main(String[] args) {
         int res = convertRomanToDecimal("XXVIII");

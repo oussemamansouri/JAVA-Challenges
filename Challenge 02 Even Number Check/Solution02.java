@@ -1,6 +1,6 @@
 import java.util.Scanner;  // Import the Scanner class for reading input from the user
 
-public class Solution {  // Define the main class named 'Solution'
+public class Solution02 {  // Define the main class named 'Solution'
     public static void main(String[] args) throws Exception {  // Main method: the entry point of the program, can throw exceptions
         Scanner scanner = new Scanner(System.in);  // Create a Scanner object to read input from the console
 

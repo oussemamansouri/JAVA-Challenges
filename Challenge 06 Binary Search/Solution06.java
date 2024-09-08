@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution06 {
     
     // Binary search method
     public static int binarySearch(int[] array, int target) {

@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution14 {
 
     // Method to calculate the number of unique paths in a grid
     public static int numberOfUniquePaths(int m, int n) {

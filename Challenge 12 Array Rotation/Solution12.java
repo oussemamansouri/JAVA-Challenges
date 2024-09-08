@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution12 {
 
     // Method to perform left rotation on an array
     public static int[] rotateArray(int[] array, int positions) {
