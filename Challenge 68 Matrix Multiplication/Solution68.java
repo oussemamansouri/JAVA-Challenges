@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution68 {
 
     // Method to multiply two matrices M1 and M2
     public static int[][] multiplyMatrix(int[][] M1, int[][] M2) {

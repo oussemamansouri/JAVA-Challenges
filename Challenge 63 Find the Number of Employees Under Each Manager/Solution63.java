@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class Solution63 {
 
     // Method to count the number of employees under each manager
     public static Map<String, Integer> countEmployees(Map<String, String> employees) {

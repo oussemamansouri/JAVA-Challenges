@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Solution {
+public class Solution66 {
 
     // Method to check if a matrix is idempotent
     public static boolean checkIdempotence(int[][] mat) {

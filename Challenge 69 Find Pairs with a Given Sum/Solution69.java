@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-public class Solution {
+public class Solution69 {
 
     // Method to find pairs from different rows that sum up to z
     public static int[][] findPairs(int[][] matrix, int z) {

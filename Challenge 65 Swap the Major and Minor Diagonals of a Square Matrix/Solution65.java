@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Solution {
+public class Solution65 {
 
     // Method to swap the major and minor diagonals of a square matrix
     public static int[][] swapDiagonals(int[][] matrix) {

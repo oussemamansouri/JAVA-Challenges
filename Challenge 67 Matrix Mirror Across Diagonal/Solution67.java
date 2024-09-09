@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution67 {
 
     // Method to return the mirror of the matrix across the diagonal
     public static int[][] mirrorMatrix(int[][] mat) {

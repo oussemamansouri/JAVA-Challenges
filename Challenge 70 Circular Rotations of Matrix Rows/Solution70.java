@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution70 {
 
     // Method to check if all rows in the matrix are circular rotations of each other
     public static boolean isCircularMatrix(int[][] matrix) {

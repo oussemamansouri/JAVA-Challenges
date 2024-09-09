@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class Solution64 {
     
     // Method to find distinct elements common to all rows of the matrix
     static int[] distinct(int[][] matrix) {

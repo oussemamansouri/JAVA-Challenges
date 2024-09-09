@@ -18,7 +18,7 @@ class Activity {
     }
 }
 
-public class Solution {
+public class Solution71 {
 
     /**
      * Method to find the maximum number of activities that can be performed by a single person.

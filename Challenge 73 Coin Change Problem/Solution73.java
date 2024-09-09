@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution73 {
 
     /**
      * Method to count the number of possible combinations of coins to reach a given sum.

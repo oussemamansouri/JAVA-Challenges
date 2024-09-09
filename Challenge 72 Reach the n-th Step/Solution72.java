@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution72 {
 
     /**
      * Method to find the number of ways to reach the n-th step.
