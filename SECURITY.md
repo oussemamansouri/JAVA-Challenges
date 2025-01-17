@@ -11,7 +11,7 @@ If you discover any security vulnerabilities within this project, please do not 
     * Clearly and concisely describe the vulnerability and its potential impact.
     * Do not publicly disclose any details of the vulnerability until it has been addressed.
 
-2. **Emailing the maintainers:** Contact the project maintainers directly via email (replace with actual email addresses) to report the issue privately.
+2. **Emailing the maintainers:** Contact the project maintainers directly via email (oussama.mansouri@issatm.ucar.tn) to report the issue privately.
 
 **Security Vulnerability Disclosure Process**
 
